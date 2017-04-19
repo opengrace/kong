@@ -10,6 +10,11 @@
     weight Targets, instead of all nonzero weight targets. This is to provide
     a better picture of the Targets currently in use by the Kong load balancer.
     [#2310](https://github.com/Mashape/kong/pull/2310)
+  - endpoints where selections could be done on a name or other unique feature
+    OR the entity ID can now have the name be a uuid and still work. Most
+    notably to problem with consumers with a username being a uuid not being
+    found.
+    [#2420](https://github.com/Mashape/kong/pull/2420)
 - Plugins:
   - key-auth: Allow setting API key header names with an underscore.
     [#2370](https://github.com/Mashape/kong/pull/2370)
