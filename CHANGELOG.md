@@ -22,6 +22,8 @@
   requests. The added functionality is now described in
   [#2211](https://github.com/Mashape/kong/issues/2211), and was implemented in
   [#2315](https://github.com/Mashape/kong/pull/2315).
+- Logging retries and failure information.
+  [#2429](https://github.com/Mashape/kong/pull/2429).
 - Plugins:
   - :fireworks: **New Request termination plugin**. This plugin allows to
     temporarily disable an API and return a pre-configured response status and
